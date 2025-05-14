@@ -54,7 +54,7 @@ fi
 sudo pkill gunicorn
 sudo rm -rf myapp.sock
 
-# # Start Gunicorn with the Flask application
+# # Start Gunicorn with the Flask application alexa
 # # Replace 'server:app' with 'yourfile:app' if your Flask instance is named differently.
 # # gunicorn --workers 3 --bind 0.0.0.0:8000 server:app &
 echo "starting gunicorn"
